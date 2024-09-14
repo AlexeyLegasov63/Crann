@@ -12,7 +12,7 @@
 	<artifactId>Crann</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Crann</name>
-	<description>Crann means &quot;Tree&quot; in Irish. So, it&apos;s just a simple IT-forum written in Java.</description>
+	<description>Crann means &quot;Tree&quot; in Irish. So, it's just a simple IT-forum written in Java.</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -64,7 +64,18 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>5.2.12.Final</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate.javax.persistence</groupId>
+			<artifactId>hibernate-jpa-2.1-api</artifactId>
+			<version>1.0.0.Final</version>
+		</dependency>
 	</dependencies>
+
 
 	<build>
 		<plugins>

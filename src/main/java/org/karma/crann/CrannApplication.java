@@ -1,4 +1,4 @@
-package org.karma.Crann;
+package org.karma.crann;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

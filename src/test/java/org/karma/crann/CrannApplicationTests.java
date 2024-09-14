@@ -1,4 +1,4 @@
-package org.karma.Crann;
+package org.karma.crann;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
