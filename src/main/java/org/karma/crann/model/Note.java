@@ -16,5 +16,6 @@ public class Note implements Serializable {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
 	private String email, password;
-	private boolean enabled;
+	private boolean activated;
+
 }
